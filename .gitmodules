@@ -1,0 +1,3 @@
+[submodule "eus_gui"]
+	path = eus_gui
+	url = https://github.com/s-noda/eus_gui.git
