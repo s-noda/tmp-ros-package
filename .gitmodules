@@ -1,3 +1,6 @@
 [submodule "eus_gui"]
 	path = eus_gui
 	url = https://github.com/s-noda/eus_gui.git
+[submodule "contact_behavior_generation"]
+	path = contact_behavior_generation
+	url = https://github.com/s-noda/contact_behavior_generation.git
