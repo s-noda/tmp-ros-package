@@ -4,3 +4,6 @@
 [submodule "contact_behavior_generation"]
 	path = contact_behavior_generation
 	url = https://github.com/s-noda/contact_behavior_generation.git
+[submodule "eus_math"]
+	path = eus_math
+	url = https://github.com/s-noda/eus_math.git

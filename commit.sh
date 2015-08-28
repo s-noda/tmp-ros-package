@@ -5,12 +5,12 @@ do
     if [ -d $d ];
     then
 	echo "-- enter into $d";
-	cd $d;
-	MSG=`git log . | head -6`;
+	## cd $d;
+	MSG=`cd $d; git log . | head -6`;
 	echo $MSG;
-	git commit . -m "update $d: $MSG";
+	git commit $d -m "update $d: $MSG";
 	git pull origin master;
-	cd ..;
+	## cd ..;
     fi
 done
 
